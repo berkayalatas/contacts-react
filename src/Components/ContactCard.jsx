@@ -44,7 +44,7 @@ function ContactCard(props) {
                         props.deleteCard(index);
                       }}
                     >
-                      <i class="fas mx-1 fa-trash-alt"></i>
+                      <i className="fas mx-1 fa-trash-alt"></i>
                        Delete
                     </Button>
 
