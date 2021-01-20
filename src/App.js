@@ -56,7 +56,7 @@ function App() {
            </Form.Label>
             <Form.Control ref={contactEmail}
               placeholder="E-mail"
-              type="text"
+              type="email"
               name="email"
             />
             <Form.Label className="my-3">
