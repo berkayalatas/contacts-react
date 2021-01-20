@@ -37,15 +37,17 @@ function ContactCard(props) {
                     </ListGroup>
                   </Card.Body>
                   <Card.Footer className="text-center">
+ 
                     <Button
                       className="btn btn-danger"
                       onClick={() => {
                         props.deleteCard(index);
                       }}
                     >
-                      Delete
+                      <i class="fas mx-1 fa-trash-alt"></i>
+                       Delete
                     </Button>
- 
+
                   </Card.Footer>
                 </div>
               </Accordion.Collapse>

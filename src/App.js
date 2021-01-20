@@ -41,7 +41,8 @@ function App() {
     setCards([...cards])
   }
 
-  
+ 
+
 
   return (
     <Container className="mt-5">
@@ -56,7 +57,7 @@ function App() {
             <Form.Control ref={contactEmail}
               placeholder="E-mail"
               type="text"
-               
+              name="email"
             />
             <Form.Label className="my-3">
               <strong>Name:</strong> 
@@ -64,6 +65,7 @@ function App() {
             <FormControl ref={contactName}
               placeholder="Name"
               type="text"
+              name="name"
             />
             <Form.Label className="my-3">
               <strong>Surname:</strong>
@@ -71,6 +73,7 @@ function App() {
             <FormControl ref={contactSurname} 
             placeholder="Surname"
             type="text" 
+            name="surname"
             />
             <Form.Label className="my-3"><strong>Notes:</strong> </Form.Label>
             <Form.Control
@@ -78,6 +81,7 @@ function App() {
                 ref={contactNotes}
                 placeholder="Notes"
                 rows={3}
+                name="notes"
             />
           </Form.Group>
             <div className="text-center">
