@@ -2,8 +2,8 @@
 ### WEBSITE : https://react-contactpage.netlify.app
 
 - [x] Add your contact name, lastname, email and notes about your contact.
-- [x] Contact Card in Accordion
-- [x] Delete your Contact 
+- [x] Display your Contact Card in Accordion
+- [x] Delete your Contact Card
 
 
 # Getting Started with Create React App
